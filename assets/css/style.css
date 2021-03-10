@@ -1,0 +1,38 @@
+
+body {
+    background-color: #fff;
+}
+
+/*----Header----*/
+body {
+    background-color: yellow;
+}
+
+
+
+
+/*----Navbar----*/
+
+
+
+
+/*----Footer----*/
+
+.bg-color {
+    background-color: #332335;
+}
+
+.footer-style {
+position: absolute;
+width: 1920px;
+height: 140px;
+left: 0px;
+top: 940px;
+}
+
+.list-inline-item i {
+    font-size: 50px;
+    margin: 0 auto;
+    color:#fff;
+    max-width: height 80px;
+}
