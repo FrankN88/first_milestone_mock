@@ -14,12 +14,28 @@
     padding: 10px;
 }
 
+/*----Jumbotron----*/
 
-
+.container-jumbotron-top {
+    height: 35px;
+}
 
 
 
 /*----Navbar----*/
+
+.nav-link {
+    
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 44px;
+text-align: right;
+
+color: #000000;
+}
+
 
 
 
