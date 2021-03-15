@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Oswald+Nunito&display=swap');
 
 
 
@@ -14,10 +14,10 @@
     padding: 10px;
 }
 
-/*----Jumbotron----*/
-
-.container-jumbotron-top {
-    height: 1px;
+/*----Jumbotron----*/ 
+.jumbotron-top {
+  min-height: 20px !important;
+  max-height: 20px !important;
 }
 
 div h2 {
@@ -25,12 +25,6 @@ div h2 {
 }
 
 /*----Navbar----*/
-
-.nav-link {
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-}
 
 
 
@@ -52,22 +46,21 @@ div h2 {
 
 .footer-style {
 position: absolute;
-height: 200px;
+height: 250px;
 min-width:100%;
 max-width:100%;
 top: 940px;
 }
 
 
-.list-inline-item i {
-    font-size: 50px;
+.footer-text {
+    font-size: 15px;
     margin: 0 auto;
     color:#fff;
     max-width: height 80px;
     padding-top: 40px;
 }
 
-.list-inline li {
-    padding-left: 25px;
-    float: right;
+.footer-social-media {
+    padding-top: 25px;
 }
