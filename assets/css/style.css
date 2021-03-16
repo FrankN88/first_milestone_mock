@@ -14,10 +14,7 @@
 }
 
 /*----Jumbotron----*/ 
-.jumbotron-top {
-  min-height: 20px !important;
-  max-height: 20px !important;
-}
+
 
 div h2 {
     font-size: 35px;
@@ -45,7 +42,6 @@ div h2 {
 
 .footer-style {
 position: absolute;
-height: 250px;
 min-width:100%;
 max-width:100%;
 top: 940px;
@@ -62,6 +58,7 @@ top: 940px;
 
 .footer-social-media {
     padding-top: 25px;
+    color: #ffffff;
 }
 
 /*----Footer button----*/
