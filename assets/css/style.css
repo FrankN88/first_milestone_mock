@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Oswald+Nunito&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css?family=Oswald+Nunito&display=swap'); */
 
 
 /*----Header----*/
@@ -56,11 +55,21 @@ top: 940px;
 .footer-text {
     font-size: 15px;
     margin: 0 auto;
-    color:#fff;
+    color: #ffffff;
     max-width: height 80px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .footer-social-media {
     padding-top: 25px;
+}
+
+/*----Footer button----*/
+
+.top-nav-button a {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    border: 2px solid #ffffff;
 }
