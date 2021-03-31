@@ -28,10 +28,84 @@ div h2 {
 /*----Section----*/
 
 
-/*----Hero Image Starts----*/
+/*----gallery----*/
+
+.container-gallery {
+    position: relative;
+    column-count: 4;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.img-gallery {
+    width: 100%;
+    transform: 0.25s ease-in-out;
+}
+
+.image-gallery:hover img {
+    transform: scale(1.1);
+}
+
+h5 {
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    background: #5c5c5c;
+    color: #ffffff;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.25 ease-in-out;
+}
+
+.image-gallery:hover h5 {
+    opacity: 0.5;
+
+}
+
+@media screen and (max-width: 1024px){
+    h5 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-gallery {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .container-gallery {
+        column-count: 2;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .container-gallery {
+        column-count: 1;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+}
 
 
-/*----Hero Image Ends----*/
+
+/*----gallery Ends----*/
 
 
 /*----Footer----*/
@@ -41,7 +115,7 @@ div h2 {
 }
 
 .footer-style {
-position: absolute;
+position: relative;
 min-width:100%;
 max-width:100%;
 top: 940px;
